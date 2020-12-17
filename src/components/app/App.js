@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Gallery from '../gallery/Gallery';
 
 function App() {
-  let [info, setInfo] = useState([]);
+  const [info, setInfo] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
