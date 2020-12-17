@@ -13,17 +13,17 @@ function App() {
       return res.json();
     })
     .then(data => {
-      setInfo(data) 
+      setInfo(data); 
+      // Switch isLoading to false once fetch is done
+      setIsLoading(false);
     })
-    // Switch isLoading to false once fetch is done
-    setIsLoading(false);
   }, []);
 
   return (
     <>
       <h1>Straw Hat Pirates</h1>
       {isLoading ? <h1>Loading...</h1> :
-      <Gallery props={info}/>
+      <Gallery info={info}/>
     }
     </>
   );

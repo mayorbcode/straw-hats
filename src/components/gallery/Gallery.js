@@ -1,11 +1,11 @@
 import React from "react";
 
-const Gallery = ({props}) => {
+const Gallery = ({info}) => {
   return (
     <div>
       <div className="gallery">
         {/* Map over array and output to DOM */}
-        {props.map((item) => {
+        {info.map((item) => {
           return (
             <a key={item.id} className="link" href={item.wiki} target='_blank' rel='noreferrer'>
               <figure className='card'>
