@@ -1,0 +1,83 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Josefin+Sans&display=swap");
+
+
+html * {
+  font-family: 'Josefin';
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cardo';
+}
+
+
+body {
+  background-color: silver;
+}
+
+/* Div wrapping all components 'sub' */
+.App {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+}
+
+.gallery {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1800px;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  background-color: lightblue;
+  width: 450px;
+  height: 500px;
+  /* border: 1px solid grey; */
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+
+@media (max-width: 1300px) {
+  /* Make cards smaller on smaller screens to fit more (ideally 3) cards on screen */
+  .card {
+    width: 400px;
+    margin: 10px;
+  }
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.07);
+  transition: transform 0.5s;
+}
+
+.card .image {
+  object-fit: cover;
+  width: 100%;
+  height: 75%;
+  /* Round only top two corners */
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card figcaption {
+  text-align: center;
+}
+
+.card h1 {
+  margin: 0;
+}
+
+.card p {
+  margin: 0;
+  font-size: 2rem;
+}
