@@ -1,7 +1,7 @@
 # STRAW HATS GALLERY
 by [Patrick Bello](https://github.com/mayorbcode)  
 
-[Github Pages Link](https://mayorbcode.github.io/straw-hats/)    
+[Heroku App](https://straw-hats.herokuapp.com/)  
 
 ## Objective
 Use react to fetch from an [API](https://github.com/mayorbcode/anime-characters-API), creating a gallery of images and information retrieved from said API.  

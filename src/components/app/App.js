@@ -22,7 +22,9 @@ function App() {
   return (
     <>
       <h1>Straw Hat Pirates</h1>
-      <Gallery props={info} loading={isLoading}/>
+      {isLoading ? <h1>Loading...</h1> :
+      <Gallery props={info}/>
+    }
     </>
   );
 }

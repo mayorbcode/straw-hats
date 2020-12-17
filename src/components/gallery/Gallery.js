@@ -1,9 +1,8 @@
 import React from "react";
 
-const Gallery = ({props, loading}) => {
+const Gallery = ({props}) => {
   return (
     <div>
-    {loading ? <h1>Loading...</h1> :
       <div className="gallery">
         {/* Map over array and output to DOM */}
         {props.map((item) => {
@@ -20,7 +19,6 @@ const Gallery = ({props, loading}) => {
           )
         })}  
       </div>
-      }
    </div>
   )
 }
