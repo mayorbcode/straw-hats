@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/straw-hats/static/css/main.e325f531.chunk.css",
+    "main.js": "/straw-hats/static/js/main.482a9362.chunk.js",
+    "main.js.map": "/straw-hats/static/js/main.482a9362.chunk.js.map",
+    "runtime-main.js": "/straw-hats/static/js/runtime-main.6facc59c.js",
+    "runtime-main.js.map": "/straw-hats/static/js/runtime-main.6facc59c.js.map",
+    "static/js/2.1e8753eb.chunk.js": "/straw-hats/static/js/2.1e8753eb.chunk.js",
+    "static/js/2.1e8753eb.chunk.js.map": "/straw-hats/static/js/2.1e8753eb.chunk.js.map",
+    "static/js/3.2af5e53b.chunk.js": "/straw-hats/static/js/3.2af5e53b.chunk.js",
+    "static/js/3.2af5e53b.chunk.js.map": "/straw-hats/static/js/3.2af5e53b.chunk.js.map",
+    "index.html": "/straw-hats/index.html",
+    "static/css/main.e325f531.chunk.css.map": "/straw-hats/static/css/main.e325f531.chunk.css.map",
+    "static/js/2.1e8753eb.chunk.js.LICENSE.txt": "/straw-hats/static/js/2.1e8753eb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6facc59c.js",
+    "static/js/2.1e8753eb.chunk.js",
+    "static/css/main.e325f531.chunk.css",
+    "static/js/main.482a9362.chunk.js"
+  ]
+}
