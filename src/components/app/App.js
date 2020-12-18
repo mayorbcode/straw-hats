@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <h1>Straw Hat Pirates</h1>
+      <h1 className={`title ${isLoading ? '' : 'visible'}`}>Straw Hat Pirates</h1>
       {isLoading ? <h1>Loading...</h1> :
       <Gallery info={info}/>
     }

@@ -23,6 +23,24 @@ h1 {
   text-align: center;
 }
 
+.title {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+  animation: 1.5s ease-in 0s 1 slideInFromTop;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-200%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 /* Gallery Styling */
 .gallery {
   margin: auto;
@@ -32,6 +50,16 @@ h1 {
   flex-wrap: wrap;
   
   max-width: 1800px;
+  animation: 1.5s ease-out 0s 1 slideInFromBottom;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+      transform: translateY(100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
 }
 
 .link {
