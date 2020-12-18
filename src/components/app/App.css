@@ -90,6 +90,15 @@ h1 {
   }
 }
 
+@media (max-width: 500px) {
+  /* Make cards even smaller on smaller screens (i.e phones) */
+  .card {
+    width: 90vw;
+    
+    margin-bottom: 30px;
+  }
+}
+
 /* Hover state */
 .card:hover {
   cursor: pointer;
