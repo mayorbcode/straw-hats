@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import Gallery from '../gallery/Gallery';
+import Gallery from '../gallery/Gallery.js';
+import Loader from '../loader/Loader.js'
 
 function App() {
   const [info, setInfo] = useState([]);
@@ -22,7 +23,7 @@ function App() {
   return (
     <>
       <h1 className={`title ${isLoading ? '' : 'visible'}`}>Straw Hat Pirates</h1>
-      {isLoading ? <h1>Loading...</h1> :
+      {isLoading ? <Loader /> :
       <Gallery info={info}/>
     }
     </>
